@@ -13,7 +13,8 @@
   "files": [
     "package.json",
     "pnpm-lock.yaml",
-    "lib"
+    "lib",
+    "README.md"
   ],
   "scripts": {
     "dev": "astro dev",
