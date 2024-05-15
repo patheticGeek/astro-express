@@ -1,0 +1,43 @@
+{
+  "name": "astro-express",
+  "version": "0.1.0",
+  "description": "A express integration for Astro",
+  "keywords": [
+    "astro-adapter",
+    "express",
+    "astro"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "node dist/server/entry.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patheticGeek/astro-express.git"
+  },
+  "author": "Pathetic Geek",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/patheticGeek/astro-express/issues"
+  },
+  "homepage": "https://github.com/patheticGeek/astro-express#readme",
+  "peerDependencies": {
+    "astro": "^1.1.3 || ^2.0.0 || ^3.0.0 || ^4.0.0",
+    "express": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "astro": "^4.3.5",
+    "vite": "^5.2.11",
+    "astro-express": "file:./lib"
+  }
+}
